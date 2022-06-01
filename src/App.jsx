@@ -21,10 +21,10 @@ const App = () => {
 
       if (Number.isInteger(result)) {
         setResult(result);
-        setShow(true);
+        handleShow();
       } else {
         setResult('Введите 2 числа');
-        setShow(true);
+        handleShow();
       }
 
       resetForm({ value: '' });
