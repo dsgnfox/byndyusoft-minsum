@@ -2,6 +2,7 @@
 
 Использовался create-react-app
 
+[DEMO](https://byndyusoft-minsum.vercel.app/)
 ___
 
 
@@ -10,3 +11,5 @@ ___
 `npm run start`
 
 `npm run build`
+
+`npm run test`
