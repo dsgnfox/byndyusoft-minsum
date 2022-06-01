@@ -41,7 +41,7 @@ const App = () => {
                 <Form.Label>Введите набор чисел</Form.Label>
                 <Form.Control type="text" className="mb-2" onChange={formik.handleChange} value={formik.values.numbers} />
                 <Form.Text className="text-muted">
-                  Числа должны быть перечислены через запятую.<br />В результате вы получите суммыу двух наименьших из них.
+                  Числа должны быть перечислены через запятую.<br />В результате вы получите сумму двух наименьших из них.
                 </Form.Text>
               </Form.Group>
               <Button variant="primary" type="submit">GO!</Button>
